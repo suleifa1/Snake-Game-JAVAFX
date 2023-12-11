@@ -1,0 +1,55 @@
+.button {
+    -fx-font-size: 20px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 15px 32px;
+    -fx-text-alignment: center;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+}
+
+.button:hover {
+    -fx-background-color: #07890F;
+}
+#chooseLB {
+    -fx-font-size: 25px;
+    -fx-text-fill: #4CCB50;
+    -fx-background-color: rgba(128, 128, 128, 0.2);
+    -fx-background-radius: 12;
+    -fx-padding: 5px 10px;
+}
+
+.root {
+    -fx-background-color: white;
+    -fx-border-width: 20px;
+    -fx-border-color: #D1FFFF;
+}
+
+.color-picker-style .button {
+    -fx-font-size: 20px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 15px 32px;
+    -fx-text-alignment: center;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+}
+
+.color-picker-style .button :hover {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.color-picker-style {
+    -fx-font-size: 25px;
+    -fx-text-fill: #4CAF50;
+    -fx-background-color: rgba(128, 128, 128, 0.2);
+    -fx-background-radius: 12;
+    -fx-padding: 5px 10px;
+}
+
+.color-picker-style .root {
+    -fx-background-color: white;
+    -fx-border-width: 20px;
+    -fx-border-color: #D1FFFF;
+}

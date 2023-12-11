@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="group" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Canvas fx:id="gameCanvas" height="800" width="806.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Text fx:id="countdownText" layoutX="390.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" textOrigin="CENTER">
+         <font>
+            <Font name="Comic Sans MS" size="60.0" />
+         </font>
+      </Text>
+        <AnchorPane fx:id="gameOverPane" prefHeight="800.0" prefWidth="806.0" stylesheets="@../css/settings.css" visible="false">
+            <Label fx:id="goLabel" layoutX="266.0" layoutY="298.0" prefHeight="83.0" prefWidth="268.0" stylesheets="@../css/save.css" text="Game Over">
+            <font>
+               <Font name="System Bold" size="11.0" />
+            </font></Label>
+            <Button fx:id="saveResultButton" layoutX="196.0" layoutY="400.0" onAction="#goToSave" prefHeight="60.0" prefWidth="183.0" text="Save Result" />
+            <Button fx:id="restartGameButton" layoutX="421.0" layoutY="400.0" onAction="#restartGame" text="Restart Game" />
+         <Button fx:id="exitButton" layoutX="353.0" layoutY="477.0" mnemonicParsing="false" text="Exit" />
+        </AnchorPane>
+      <AnchorPane fx:id="saveOverPane" prefHeight="800.0" prefWidth="806.0" stylesheets="@../css/save.css" visible="false">
+         <children>
+            <ComboBox fx:id="playersCB" layoutX="398.0" layoutY="366.0" prefHeight="60.0" prefWidth="232.0" promptText="Choose" styleClass="comboBox" />
+            <TextField fx:id="nicknameTF" layoutX="177.0" layoutY="368.0" prefHeight="60.0" prefWidth="207.0" promptText="Enter Nickname" styleClass="textField" />
+            <CheckBox fx:id="playedCB" layoutX="398.0" layoutY="303.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="232.0" selected="true" styleClass="checkBox" text="Played Before" />
+            <Button fx:id="saveScore" layoutX="398.0" layoutY="438.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="232.0" text="Save" />
+            <Button fx:id="returnButton" layoutX="177.0" layoutY="438.0" mnemonicParsing="false" onAction="#backToGO" prefHeight="60.0" prefWidth="207.0" text="Return" />
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>

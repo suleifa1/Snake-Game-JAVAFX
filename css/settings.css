@@ -1,0 +1,66 @@
+.button {
+    -fx-font-size: 20px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 15px 32px;
+    -fx-text-alignment: center;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+}
+
+.button:hover {
+    -fx-background-color: #07890F;
+}
+
+.label {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+}
+#gameSound {
+    -fx-font-size: 20px;
+    -fx-text-fill: #4CCB50;
+    -fx-background-color: rgba(128, 128, 128, 0.2);
+    -fx-background-radius: 12;
+    -fx-padding: 5px 10px;
+}
+
+#menuSound {
+    -fx-font-size: 20px;
+    -fx-text-fill: #4CCB50;
+    -fx-background-color: rgba(128, 128, 128, 0.2);
+    -fx-background-radius: 12;
+    -fx-padding: 5px 10px;
+}
+
+#gameOverPane {
+    -fx-background-color: rgba(128, 128, 128, 0.35);
+}
+
+#backButton {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-background-color: #4CAF50;
+    -fx-background-radius: 12;
+    -fx-padding: 5px 10px;
+    -fx-cell-size: 10px;
+}
+#backButton:hover {
+    -fx-background-color: #07890F;
+}
+
+#cleared {
+    -fx-text-fill: #07890F;
+    -fx-font-size: 12px;
+    -fx-font-family: "Comic Sans MS";
+}
+
+.slider .thumb {
+    -fx-background-color: #006400;
+}
+
+.slider .track {
+    -fx-fill: white;
+}
+.root {
+    -fx-background-color: #D1FFFF;
+}

@@ -1,0 +1,53 @@
+.button, .textField, .comboBox {
+    -fx-font-size: 20px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10px 10px;
+    -fx-text-alignment: center;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+}
+
+
+.button:hover, .textField:hover, .comboBox:hover {
+    -fx-background-color: #07890F;
+}
+
+{
+    -fx-background-color: rgba(128, 128, 128, 0.35);
+}
+
+.checkBox {
+    -fx-font-size: 20px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10px 10px;
+    -fx-text-alignment: center;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+}
+
+.checkBox:hover {
+    -fx-background-color: #07890F;
+}
+
+.checkBox:disabled {
+    -fx-background-color: rgba(128, 128, 128, 0.35);
+}
+
+
+.checkBox:selected .box {
+    -fx-background-color: rgba(128, 128, 128, 0.35);
+}
+
+.checkBox:selected .mark {
+    -fx-background-color: yellow; /* Цвет галочки при выборе */
+}
+
+#goLabel {
+    -fx-font-size: 50px;
+    -fx-text-fill: #FF4A36;
+    -fx-background-color: rgba(128, 128, 128, 0.20);
+    -fx-background-radius: 12;
+    -fx-padding: 5px 10px;
+}

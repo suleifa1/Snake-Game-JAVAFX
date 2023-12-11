@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="408.0" prefWidth="600.0" style="-fx-border-color: #D1FFFF;" stylesheets="@../css/startGame.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="399.0" fitWidth="608.0" layoutX="30.0" layoutY="20.0">
+         <Image url="@../images/snakebg.png"/>
+      </ImageView>
+      <ColorPicker fx:id="colorPicker" layoutX="530.0" layoutY="106.0" prefHeight="60.0" prefWidth="216.0" styleClass="color-picker-style" />
+      <Button fx:id="startButton" layoutX="334.0" layoutY="190.0" mnemonicParsing="false" text="Start Game" />
+      <Button fx:id="exit" layoutX="530.0" layoutY="190.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="95.0" text="Exit" />
+      <Label fx:id="chooseLB" layoutX="334.0" layoutY="106.0" prefHeight="60.0" prefWidth="191.0" text="Choose Color" />
+   </children>
+</AnchorPane>
